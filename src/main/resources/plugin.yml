@@ -1,0 +1,10 @@
+name: JESViewDistance
+version: '${version}'
+main: dev.ciel.jESViewDistance.JESViewDistance
+api-version: '26.2'
+depend: [LuckPerms]
+
+permissions:
+  jesviewdistance.admin:
+    description: Use /viewdistance
+    default: op

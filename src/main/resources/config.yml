@@ -1,0 +1,16 @@
+# view-distance: how many chunks around the player get loaded and sent to them.
+# simulation-distance: how many chunks around the player actually tick
+# (mobs, crops, redstone, furnaces and so on). This one costs the most CPU.
+#
+# Group names are LuckPerms groups. Players get the first group in this list
+# they have (inherited groups count), so keep the best rank at the top.
+# Anyone without a listed group uses the values from server.properties,
+# so set your default player distances there.
+# Both values must be between 2 and 32.
+#
+# Run /vd reload after editing.
+
+groups:
+  premium:
+    view-distance: 12
+    simulation-distance: 5
